@@ -11,4 +11,4 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     print("Listening on port 8000", flush=True)
-    HTTPServer(("0.0.0.0", 8000), Handler).serve_forever()
+    HTTPServer(("0.0.0.0", 80), Handler).serve_forever()
